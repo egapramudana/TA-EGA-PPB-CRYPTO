@@ -1,0 +1,37 @@
+/* TradingWebsites.css */
+.trading-websites-container {
+    text-align: center;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    
+  }
+  
+  .card {
+    cursor: pointer;
+    transition: transform 0.3s;
+    flex-basis: calc(25% - 20px); /* Menentukan bahwa setiap card harus memakan 25% dari lebar container dengan margin 20px */
+    margin-bottom: 20px; /* Jarak antara card */
+    
+    
+    &:hover {
+      transform: scale(1.2);
+    }
+  
+    .website-image {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin-bottom: 10px;
+      margin-top: 20px;
+      box-shadow: 0px 0px 20px #f1f10c7b;
+    }
+  
+    .website-name {
+      font-weight: bold;
+    }
+  }

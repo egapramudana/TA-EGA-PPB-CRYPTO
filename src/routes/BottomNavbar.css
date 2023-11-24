@@ -1,0 +1,14 @@
+/* BottomNavBar.css */
+.nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Poppins, sans-serif';
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffd700;
+  }
+  
